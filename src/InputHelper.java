@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BirthDateTime {
+public class InputHelper {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int year = InputHelper.getRangedInt(scan, "Enter your birth year", 1950,2012);
@@ -21,5 +21,9 @@ public class BirthDateTime {
         System.out.printf("\nHour: %10d", hour);
         System.out.printf("\nMinute: %8d", minute);
 
+    }
+
+    private static int getRangedInt(Scanner scan, String enter_your_birth_year, int i, int i1) {
+        return i;
     }
 }
